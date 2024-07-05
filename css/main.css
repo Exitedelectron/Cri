@@ -37,3 +37,14 @@ body {
 .map-icon img {
     margin-left: 15px;
 }
+
+::selection {
+    background-color: red; 
+    color: #fff; 
+}
+
+
+::-moz-selection {
+    background-color: red; 
+    color: #fff; 
+}
