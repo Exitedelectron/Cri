@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: red;
+    font-weight: bold;
+
+}
+.contact-info, .social-icons {
+    display: flex;
+    align-items: center;
+}
+.contact-info a, .social-icons a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+.contact-info a:last-child {
+    margin-right: 0;
+}
+.login-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.social-icons img, .contact-info img {
+    margin-right: 5px;
+}
+.map-icon img {
+    margin-left: 15px;
+}
