@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 15px;
     background-color: red;
     font-weight: bold;
 
@@ -26,8 +26,8 @@ body {
 }
 .login-button {
     padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: black;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
 }
