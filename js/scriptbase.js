@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     menuItems.forEach(function (item) {
         if (item.href === currentLocation) {
             item.classList.add('active');
+            item.style.color = 'white';
         }
     });
 });
