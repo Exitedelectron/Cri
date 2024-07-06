@@ -1,9 +1,10 @@
-const currentLocation = location.href;
-        const menuItem = document.querySelectorAll('.nav-links a');
-        const menuLength = menuItem.length;
-        for (let i = 0; i < menuLength; i++) {
-            if (menuItem[i].href === currentLocation) {
-                menuItem[i].className = "active";
-                menuItem[i].style.color = "white";
-            }
+document.addEventListener('DOMContentLoaded', function () {
+    const currentLocation = window.location.href;
+    const menuItems = document.querySelectorAll('.nav-links a');
+    
+    menuItems.forEach(function (item) {
+        if (item.href === currentLocation) {
+            item.classList.add('active');
         }
+    });
+});
