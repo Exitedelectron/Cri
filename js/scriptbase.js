@@ -4,5 +4,6 @@ const currentLocation = location.href;
         for (let i = 0; i < menuLength; i++) {
             if (menuItem[i].href === currentLocation) {
                 menuItem[i].className = "active";
+                menuItem[i].style.color = "white";
             }
         }
