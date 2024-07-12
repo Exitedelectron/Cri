@@ -97,10 +97,9 @@ body {
 }
 
 .slider {
-    position: relative;
-    width: 80%;
-    max-width: 1300px;
-    margin: auto;
+    max-width: 1000px;
+    margin-top: 25px;
+    margin-left: 50px;
     overflow: hidden;
     border: 2px solid #ddd;
     border-radius: 10px;
